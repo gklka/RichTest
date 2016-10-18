@@ -186,6 +186,9 @@
 						DevelopmentTeam = 9L2H2A796T;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -195,6 +198,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 9L2H2A796T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -444,6 +452,7 @@
 				479061691DA1BA3B007DEDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4790617A1DA1BD0C007DEDEB /* Build configuration list for PBXNativeTarget "Notification" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +461,7 @@
 				4790617C1DA1BD0C007DEDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
